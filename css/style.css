@@ -1,0 +1,371 @@
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+
+.navbar{
+  border-bottom: royalblue 2px solid;
+  font-size: 20px;
+}
+
+/*====================== HOME SECTION SATRT ================*/
+.get-started{
+  height: 600px;
+  width: 100%;
+} 
+
+.get-started .child-satrted{
+  
+}
+.get-started .child-satrted h2{
+  font-size: 50px;
+  color: #012970;
+
+}
+.get-started .child-satrted .btn{
+  
+}
+/*====================== HOME SECTION END ================*/
+
+
+/* =============COUNT SECTION START=================*/
+.counts{
+padding: 70px 0 60px;
+}
+.counts .count-box{
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+
+}
+.counts .count-box i{
+  font-size: 42px;
+  padding: 30px;
+  margin-right: 20px;
+  color: gold;
+}
+.counts .count-box span{
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: tomato;
+}
+
+/* =============COUNT SECTION END=================*/
+
+.futures h2{
+  font-size: 28px;
+  line-height: 32px;
+  color: #012970;
+  
+}
+
+.futures i{
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: 0.3s;;
+}
+.futures h3{
+  font-size: 18px;
+  color: #012970;;
+}
+.futures i:hover{
+  background-color: #055cf1;
+  color: #fff;
+}
+.futures .futures-box{
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+/*================feature-icon================== */
+.feature-icon h2{
+  color: #0245bc;
+  font-weight: 500;
+}
+
+.feature-icon i{
+  font-size: 40px;
+  color: #0245bc;
+  margin-right: 5px;
+}
+.feature-icon h3{
+  font-size: 20px;
+  margin: 5 0 10px 0;
+  color: #0245bc;
+  font-weight: 700;
+}
+
+.feature-icon p{
+  color: #848484;
+  font-size: 15px;
+
+}
+/*================feature-icon End================== */
+
+
+/*================service-sectio===============*/
+.service-section strong{
+  color: #055cf1;
+  line-height: 35px;
+
+}
+.service-section h5{
+  color: #012970;;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+}
+.service-section .service-box.blue{
+  border-bottom:#2db6fa 3px solid; 
+}
+
+
+.service-section .service-box{
+  height: 100%;
+  padding: 60px 30px;
+  box-shadow:5px 0 30px rgb(1 41 112 / 8%);
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+}
+.service-section .service-box .icon{
+  
+  padding: 40px 20px;
+  font-size: 40px;
+  margin-bottom: 10px;
+   border-radius: 5px;
+   line-height: 0;
+   transition: 0.3s;
+   position: relative;
+   display: inline-block;
+  
+  
+}
+
+
+.service-section .service-box.blue .icon{
+  color: #2db6fa;
+  background: #dbf3fe;
+ 
+}
+.service-section .service-box h2{
+  color: #444444;
+  font-weight: 700;
+}
+
+.service-section .service-box .read{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+
+}
+.service-section .service-box .read i{
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  
+}
+.service-section .service-box.blue .read{
+  color: #2db6fa;
+}
+.service-section .service-box.blue:hover{
+  background: #2db6fa;
+  color: #fff;
+
+}
+
+
+.service-section .service-box.orange .icon{
+  color: #f68c09;
+  background: #dbf3fe;
+}
+.service-section .service-box.orange{
+  border-bottom: #f68c09 3px solid ;
+}
+.service-section .service-box.orange a{
+  color:  #f68c09;
+}
+.service-section .service-box.orange:hover{
+  background: #f68c09;
+  color: #dbf3fe;
+}
+
+.service-section .service-box.green{
+  border-bottom: #08da4e 3px solid;
+}
+.service-section .service-box.green .icon{
+  color: #08da4e;
+  background: #dbf3fe;
+}
+.service-section .service-box.green a{
+  color: #08da4e;
+}
+.service-section .service-box.green:hover{
+  background: #08da4e;
+  color: #dbf3fe;
+}
+
+.service-section .service-box.read{
+  border-bottom: #e9222c 3px solid;
+
+}
+.service-section .service-box.read .icon{
+  color: #e9222c;
+    background: #dbf3fe;
+}
+.service-section .service-box.read a{
+  color: #e9222c;
+
+}
+.service-section .service-box.read:hover{
+  background: #e9222c;
+  color: #dbf3fe;
+}
+
+.service-section .service-box.purpel{
+  border-bottom: #b50edf 3px solid;
+
+}
+.service-section .service-box.purpel .icon{
+  color: #b50edf;
+    background: #dbf3fe;
+}
+.service-section .service-box.purpel a{
+  color: #b50edf;
+
+}
+.service-section .service-box.purpel:hover{
+  background: #b50edf;
+  color: #dbf3fe;
+}
+
+
+.service-section .service-box.pink{
+  border-bottom: #f51f9c 3px solid;
+
+}
+.service-section .service-box.pink .icon{
+  color: #f51f9c;
+    background: #dbf3fe;
+}
+.service-section .service-box.pink a{
+  color: #f51f9c;
+
+}
+.service-section .service-box.pink:hover{
+  background: #f51f9c;
+  color: #dbf3fe;
+} 
+/*================service-sectio===============*/
+
+/*================priching Section start===============*/
+.priching-section strong{
+  color: #2db6fa;
+  line-height: 30px;
+}
+.priching-section h3{
+  color: #055cf1;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.priching-section .pricing-box{
+  height: 100%;
+  padding: 60px 25px;
+  box-shadow:5px 0 30px rgb(1 41 112 / 8%);
+}
+
+.priching-section .pricing-box .color1{
+  color: #07d5c0;
+  font-weight: 600;
+  font-size:20px ;
+}
+
+.priching-section .pricing-box .free{
+  font-weight: 600;
+  font-size: 32px;
+  color: #444444;
+}
+.priching-section .pricing-box ul{
+  list-style: none;
+  line-height: 40px;
+  padding: 0;
+  text-align: center;
+  color: #444444;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.priching-section .pricing-box .tottal1 .one{
+  text-decoration: line-through;
+
+}
+.priching-section .pricing-box .tottal1 .tow{
+  text-decoration: line-through;
+}
+.priching-section .pricing-box img{
+  padding: 23px 30px;
+}
+.priching-section .pricing-box a{
+   
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.priching-section .pricing-box .color2{
+  color: #f51f9c;
+  font-weight: 600;
+  font-size:20px ;
+}
+.priching-section .pricing-box .three{
+  text-decoration: line-through;
+}
+
+.priching-section .pricing-box .color3{
+  color: #b50edf;
+  font-weight: 600;
+  font-size:20px ;
+}
+.priching-section .pricing-box .color4{
+  color: #f68c09;
+  font-weight: 600;
+  font-size:20px ;
+}
+/*================priching Section end===============*/
+
+.acordain-section strong{
+  color: #f51f9c;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.acordain-section h3{
+  color: #0245bc;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+
+
